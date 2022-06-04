@@ -6,6 +6,7 @@
   margin: 0;
   font-family: 'Times', serif;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -13,25 +14,30 @@ body {
   min-height: 100vh;
 }
 
-/* FOR LEFT SIDE screen split*/
+/* for left side screen split*/
 .split {
   height: 100%;
   width: 25%;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+  
 }
 
 .left {
   left: 0;
   background-color: royalblue;
 }
+
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* for menu item transformation */
+ul{
+  position: relative;
+  transform: skewY(-20deg);
+
 }
