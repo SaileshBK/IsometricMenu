@@ -24,7 +24,7 @@ body {
 
 .left {
   left: 0;
-  background-color: royalblue;
+  background-color: lightskyblue;
 }
 
 .centered {
@@ -46,6 +46,17 @@ ul li{
   position: relative;
   list-style: none;
   width: 200px;
-  background: brown;
+  background: grey;
   padding: 25px;
+}
+
+ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  transition: 0.5s;
+}
+
+ul li:hover a{
+  color: aliceblue;
 }
