@@ -38,6 +38,14 @@ body {
 /* for menu item transformation */
 ul{
   position: relative;
-  transform: skewY(-20deg);
+  transform: skewY(-16deg);
 
+}
+
+ul li{
+  position: relative;
+  list-style: none;
+  width: 200px;
+  background: brown;
+  padding: 25px;
 }
