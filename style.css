@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
 }
 
-/* FOR LEFT SIDE */
+/* FOR LEFT SIDE screen split*/
 .split {
   height: 100%;
   width: 25%;
