@@ -39,6 +39,7 @@ body {
 ul{
   position: relative;
   transform: skewY(-16deg);
+  transition: 0.5s;
 
 }
 
@@ -48,6 +49,7 @@ ul li{
   width: 200px;
   background: grey;
   padding: 25px;
+  z-index: var(--i);
 }
 
 ul li a{
@@ -90,6 +92,12 @@ ul li::after{
   transition: 0.5s;
   transform: skewX(45deg);
   transition: 0.5s;
+}
+
+ul li:hover{
+  background: lightblue;
+  transform: translateX(-50px);
+}
 
 
 
