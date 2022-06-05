@@ -78,6 +78,10 @@ ul li::before{
   transition: 0.5s;
 }
 
+ul li:hover::before{
+  background: lightblue;
+}
+
 /* for menu item after left side bar*/
 
 ul li::after{
@@ -89,7 +93,6 @@ ul li::after{
   height: 40px;
   background: darkgray;
   transform-origin: bottom;
-  transition: 0.5s;
   transform: skewX(45deg);
   transition: 0.5s;
 }
@@ -97,6 +100,10 @@ ul li::after{
 ul li:hover{
   background: lightblue;
   transform: translateX(-50px);
+}
+
+ul li:hover::after{
+  background: lightblue;
 }
 
 
