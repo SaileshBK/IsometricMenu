@@ -39,7 +39,7 @@ body {
 ul{
   position: relative;
   transform: skewY(-16deg);
-  transition: 0.7s;
+  transition: 0.5s;
 
 }
 
@@ -56,7 +56,7 @@ ul li a{
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-  transition: 0.7s;
+  transition: 0.5s;
   color: black;
   
 }
@@ -77,7 +77,7 @@ ul li::before{
   background: darkgray;
   transform: skewY(45deg);
   transform-origin: right;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 ul li:hover::before{
@@ -96,7 +96,7 @@ ul li::after{
   background: darkgray;
   transform-origin: bottom;
   transform: skewX(45deg);
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 ul li:hover{
@@ -106,6 +106,10 @@ ul li:hover{
 
 ul li:hover::after{
   background: lightblue;
+}
+
+ul li:last-child::after{
+  box-shadow: -140px 150px 10px rgb(0,0,0,0.50);
 }
 
 
